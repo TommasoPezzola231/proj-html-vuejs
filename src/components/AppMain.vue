@@ -1,9 +1,16 @@
 <script>
+import ourSpecialties from './ourSpecialties.vue'
+
 export default {
-    name: "AppMain"
+    name: "AppMain",
+    components: {
+        ourSpecialties
+    }
 }
 </script>
 
-<template></template>
+<template>
+    <ourSpecialties />
+</template>
 
 <style lang="scss" scoped></style>
