@@ -13,8 +13,10 @@ import { faBars } from '@fortawesome/free-solid-svg-icons'
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { faFacebook } from '@fortawesome/free-brands-svg-icons'
 import { faSquareTwitter } from '@fortawesome/free-brands-svg-icons'
+import { faClock } from '@fortawesome/free-regular-svg-icons'
+import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
 
-library.add(faMagnifyingGlass, faBars, faLinkedin, faFacebook, faSquareTwitter)
+library.add(faMagnifyingGlass, faBars, faLinkedin, faFacebook, faSquareTwitter, faClock, faLocationDot)
 
 
 import bootstrap from 'bootstrap/dist/js/bootstrap.bundle.js'
