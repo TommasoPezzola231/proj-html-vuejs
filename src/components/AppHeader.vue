@@ -14,8 +14,10 @@ export default {
             <div class="logo d-flex align-items-center">
                 <img src="../assets/logo-img-01.png">
             </div>
-            <nav class="d-flex justify-content-around col-4">
+            <nav class="d-flex justify-content-around col-5">
                 <a v-for="element in navbar">{{ element }}</a>
+                <font-awesome-icon icon="fa-solid fa-magnifying-glass" />
+                <font-awesome-icon icon="fa-solid fa-bars" />
             </nav>
         </div>
 
