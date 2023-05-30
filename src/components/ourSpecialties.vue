@@ -52,7 +52,7 @@ export default {
         </div>
     </section>
 
-    <section>
+    <section id="JasonBrickford">
         <div class="customContainer d-flex align-items-center p-5">
             <div class="col-6 p-5">
                 <img src="../assets/h1-img-01.jpg">
@@ -110,7 +110,7 @@ svg {
     }
 }
 
-section:last-child {
+#JasonBrickford {
     background-image: url(../assets/svg-4.svg);
     background-repeat: no-repeat;
     background-position: right;
