@@ -8,7 +8,7 @@ export default {
 </script>
 
 <template>
-    <header>
+    <header id="navbar">
 
         <div class="customContainer d-flex justify-content-between align-items-center">
             <div class="logo d-flex align-items-center">

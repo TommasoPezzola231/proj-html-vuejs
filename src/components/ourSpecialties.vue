@@ -33,7 +33,7 @@ export default {
 </script>
 
 <template>
-    <section>
+    <section id="specialties">
         <div class="customContainer bg-white px-5 py-5">
             <h3 class="text-center">Our specialties<span>.</span></h3>
             <h6 class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h6>
