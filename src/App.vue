@@ -21,11 +21,21 @@ export default {
         "Elements"
       ]
     }
+  },
+  methods: {
+    topFunction() {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+      })
+    }
   }
 }
 </script>
-
 <template>
+  <button id="backToTop" @click="topFunction()"> <font-awesome-icon icon="fa-solid fa-arrow-up" />
+  </button>
+
   <AppHeader :navbar="navElements" />
 
   <AppMain />
@@ -33,4 +43,19 @@ export default {
   <AppFooter />
 </template>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+@use './styles/partials/variables' as *;
+
+#backToTop {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 1;
+  width: 30px;
+  aspect-ratio: 1/1;
+  border-radius: 30px;
+  background-color: white;
+  color: $orangeColor;
+  cursor: pointer;
+}
+</style>
