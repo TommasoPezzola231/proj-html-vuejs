@@ -33,7 +33,7 @@ export default {
                     time: "9:00 am - 5:00 pm",
                     where: "Cambridge, MA 02138, USA"
                 }
-            ]
+            ],
         }
     }
 }
@@ -44,6 +44,8 @@ export default {
 
     <section id="upcomingEvents" class="d-flex align-items-center p-5">
         <div class="customContainerL">
+
+            <!-----------Sezione Upcoming Events--------------->
             <div class="col-4 p-3 bg-white text-dark">
                 <h5>Upcoming Events</h5>
 
@@ -67,7 +69,63 @@ export default {
                         <p>READ MORE</p>
                     </span>
                 </div>
+            </div>
 
+        </div>
+    </section>
+
+    <section id="creativeLeader">
+        <div class="customContainerL">
+            <div class="d-flex my-5">
+
+                <div class="col-6">
+                    <h3>Creative Leader<span>.</span></h3>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam obcaecati laborum soluta molestias?
+                        Deleniti, soluta minima nobis libero et accusamus, pariatur atque dolor cumque ipsam quaerat omnis
+                        hic optio. Aliquid.</p>
+                    <small>READ MORE</small>
+
+                </div>
+
+                <div class="col-6">
+
+                    <div class="d-flex justify-content-between">
+                        <h5>Mentorship</h5>
+                        <h5>78%</h5>
+                    </div>
+
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 78%"></div>
+                    </div>
+
+                    <div class="d-flex justify-content-between">
+                        <h5>Education</h5>
+                        <h5>95%</h5>
+                    </div>
+
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 95%"></div>
+                    </div>
+
+                    <div class="d-flex justify-content-between">
+                        <h5>Learning</h5>
+                        <h5>65%</h5>
+                    </div>
+
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 65%"></div>
+                    </div>
+
+                    <div class="d-flex justify-content-between">
+                        <h5>Motivation</h5>
+                        <h5>83%</h5>
+                    </div>
+
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 83%"></div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -110,5 +168,39 @@ section#upcomingEvents {
     height: fit-content;
     background-color: $orangeColor;
     color: white;
+}
+
+
+#creativeLeader {
+
+    h3 {
+        >span {
+            color: $orangeColor;
+        }
+    }
+
+    p {
+        color: $lightGrayColor;
+    }
+
+    hr {
+        width: 10%;
+        color: $orangeColor;
+    }
+
+    small {
+        font-size: 11px;
+        font-weight: bold;
+        margin-top: 1rem;
+    }
+
+    .progress {
+        height: 5px;
+        margin-bottom: 2rem;
+
+        .progress-bar {
+            background-color: $orangeColor;
+        }
+    }
 }
 </style>
