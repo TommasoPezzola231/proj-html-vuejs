@@ -38,7 +38,7 @@ export default {
             <h3 class="text-center">Our specialties<span>.</span></h3>
             <h6 class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h6>
             <hr class="mx-auto">
-            <div class="col-10 mx-auto d-flex justify-content-around my-5">
+            <div class="customContainerL d-flex justify-content-between my-5">
                 <template v-for="specialty in specialties">
 
                     <div class="col-2 text-center">
@@ -53,11 +53,11 @@ export default {
     </section>
 
     <section id="JasonBrickford">
-        <div class="customContainer d-flex align-items-center p-5">
-            <div class="col-6 p-5">
+        <div class="customContainerL d-flex align-items-center py-5">
+            <div class="col-6">
                 <img src="../assets/h1-img-01.jpg">
             </div>
-            <div class="col-6 py-5 px-3 bg-white customCard">
+            <div class="col-7 py-5 px-3 bg-white customCard">
                 <h3>Jason Bickford</h3>
                 <small>Founder and executive Director</small>
                 <hr>
@@ -91,7 +91,7 @@ img {
 }
 
 .customCard {
-    margin-left: -9rem
+    margin-left: -5rem;
 }
 
 hr {

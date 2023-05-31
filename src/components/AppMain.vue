@@ -43,30 +43,32 @@ export default {
     <ourSpecialties />
 
     <section id="upcomingEvents" class="d-flex align-items-center p-5">
-        <div class="col-3 p-3 bg-white text-dark ms-5">
-            <h5>Upcoming Events</h5>
+        <div class="customContainerL">
+            <div class="col-4 p-3 bg-white text-dark">
+                <h5>Upcoming Events</h5>
 
-            <div v-for="event in events" class="scheduled d-flex pt-4">
+                <div v-for="event in events" class="scheduled d-flex pt-4">
 
-                <span class="col-3 text-center data">
-                    <h6>{{ event.day }}</h6>
-                    <div>{{ event.month }}{{ event.year }}</div>
-                </span>
+                    <span class="col-3 text-center data">
+                        <h6>{{ event.day }}</h6>
+                        <div>{{ event.month }}{{ event.year }}</div>
+                    </span>
 
-                <span class="col ms-3">
-                    <h6>{{ event.title }}</h6>
-                    <div>
-                        <font-awesome-icon icon="fa-regular fa-clock" />
-                        {{ event.time }} {{ event.month }} {{ event.day }}, {{ event.year }}
-                    </div>
-                    <div>
-                        <font-awesome-icon icon="fa-solid fa-location-dot" />
-                        {{ event.where }}
-                    </div>
-                    <p>READ MORE</p>
-                </span>
+                    <span class="col ms-3">
+                        <h6>{{ event.title }}</h6>
+                        <div>
+                            <font-awesome-icon icon="fa-regular fa-clock" />
+                            {{ event.time }} {{ event.month }} {{ event.day }}, {{ event.year }}
+                        </div>
+                        <div>
+                            <font-awesome-icon icon="fa-solid fa-location-dot" />
+                            {{ event.where }}
+                        </div>
+                        <p>READ MORE</p>
+                    </span>
+                </div>
+
             </div>
-
         </div>
     </section>
 </template>
