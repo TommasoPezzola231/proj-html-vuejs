@@ -75,6 +75,12 @@ export default {
 <style lang="scss" scoped>
 @use '../styles/partials/variables' as *;
 
+#specialties {
+    margin-top: -3rem;
+    position: relative;
+    z-index: 1;
+}
+
 h3 {
     >span {
         color: $orangeColor;
