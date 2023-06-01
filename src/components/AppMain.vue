@@ -1,10 +1,12 @@
 <script>
 import ourSpecialties from './ourSpecialties.vue'
+import latestNews from './latestNews.vue'
 
 export default {
     name: "AppMain",
     components: {
-        ourSpecialties
+        ourSpecialties,
+        latestNews
     },
     data() {
         return {
@@ -40,6 +42,7 @@ export default {
 </script>
 
 <template>
+    <!------------Our Specialties Section------------------->
     <ourSpecialties />
 
     <section id="upcomingEvents" class="d-flex align-items-center p-5">
@@ -129,6 +132,8 @@ export default {
             </div>
         </div>
     </section>
+
+    <latestNews />
 </template>
 
 <style lang="scss" scoped>
@@ -172,6 +177,7 @@ section#upcomingEvents {
 
 
 #creativeLeader {
+    background-color: white;
 
     h3 {
         >span {
