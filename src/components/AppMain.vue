@@ -1,12 +1,14 @@
 <script>
 import ourSpecialties from './ourSpecialties.vue'
 import latestNews from './latestNews.vue'
+import testimonials from './testimonials.vue'
 
 export default {
     name: "AppMain",
     components: {
         ourSpecialties,
-        latestNews
+        latestNews,
+        testimonials
     },
     data() {
         return {
@@ -134,6 +136,8 @@ export default {
     </section>
 
     <latestNews />
+
+    <testimonials />
 </template>
 
 <style lang="scss" scoped>
