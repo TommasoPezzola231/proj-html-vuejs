@@ -197,6 +197,7 @@ export default {
 
     .card {
         width: 32%;
+        height: 450px;
         margin-top: 2rem;
         margin-bottom: 5rem;
 
