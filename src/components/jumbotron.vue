@@ -64,15 +64,6 @@ export default {
 <style lang="scss" scoped>
 @use '../styles/partials/variables' as *;
 
-.customPositionR {
-    top: 50%;
-    right: 1%;
-}
-
-.customPositionL {
-    top: 50%;
-    left: 1%;
-}
 
 img {
     width: 100%;
