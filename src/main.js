@@ -18,8 +18,9 @@ import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
 import { faArrowUp } from '@fortawesome/free-solid-svg-icons'
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import { faArrowLeft } from '@fortawesome/free-solid-svg-icons'
+import { faUser } from '@fortawesome/free-solid-svg-icons'
 
-library.add(faMagnifyingGlass, faBars, faLinkedin, faFacebook, faSquareTwitter, faClock, faLocationDot, faArrowUp, faArrowRight, faArrowLeft)
+library.add(faMagnifyingGlass, faBars, faLinkedin, faFacebook, faSquareTwitter, faClock, faLocationDot, faArrowUp, faArrowRight, faArrowLeft, faUser)
 
 
 import bootstrap from 'bootstrap/dist/js/bootstrap.bundle.js'
