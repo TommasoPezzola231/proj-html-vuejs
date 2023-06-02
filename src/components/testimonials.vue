@@ -80,8 +80,11 @@ export default {
             </div>
         </div>
 
-        <div class="position-relative">
-            <img class="video" :src="imgVideo">
+    </section>
+
+    <section id="video">
+        <div class="position-relative video">
+            <img class="" :src="imgVideo">
             <font-awesome-icon icon="fa-solid fa-play"
                 class="playVideo position-absolute top-50 start-50 translate-middle" />
         </div>
@@ -132,13 +135,22 @@ export default {
 
     }
 
+}
+
+#video {
     .video {
         height: 100vh;
         width: 100%;
         max-width: 100%;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
     }
 
     .playVideo {
+        color: white;
         font-size: 50px;
         cursor: pointer;
 
@@ -146,5 +158,6 @@ export default {
             color: $lightGrayColor;
         }
     }
+
 }
 </style>
