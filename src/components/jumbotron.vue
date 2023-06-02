@@ -83,29 +83,6 @@ p {
     color: $lightGrayColor;
 }
 
-.btnCustom {
-    border: none;
-    padding: 1rem;
-    width: 170px;
-
-    span {
-        padding: 0.5rem 0;
-        margin-right: 0.5rem;
-    }
-
-    div {
-        transform: rotate(90deg);
-        display: inline-block;
-        height: 2px;
-        width: 30px;
-    }
-
-    &:hover div {
-        display: none;
-    }
-
-}
-
 .readMore {
     background-color: white;
     color: black;
