@@ -2,13 +2,15 @@
 import ourSpecialties from './ourSpecialties.vue'
 import latestNews from './latestNews.vue'
 import testimonials from './testimonials.vue'
+import contactUs from './contactUs.vue'
 
 export default {
     name: "AppMain",
     components: {
         ourSpecialties,
         latestNews,
-        testimonials
+        testimonials,
+        contactUs
     },
     data() {
         return {
@@ -138,6 +140,8 @@ export default {
     <latestNews />
 
     <testimonials />
+
+    <contactUs />
 </template>
 
 <style lang="scss" scoped>
