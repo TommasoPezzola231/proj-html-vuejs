@@ -64,7 +64,7 @@ export default {
                     </span>
 
                     <span class="col ms-3">
-                        <h6>{{ event.title }}</h6>
+                        <h5>{{ event.title }}</h5>
                         <div>
                             <font-awesome-icon icon="fa-regular fa-clock" />
                             {{ event.time }} {{ event.month }} {{ event.day }}, {{ event.year }}
@@ -157,8 +157,14 @@ section#upcomingEvents {
 .scheduled {
     border-top: 1px solid lightgray;
 
-    h6 {
+    h6,
+    h5 {
         font-weight: bold;
+        font-size: 1rem;
+    }
+
+    &:hover h5 {
+        color: $orangeColor;
     }
 
     div {
