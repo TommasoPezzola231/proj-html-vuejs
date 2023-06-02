@@ -2,6 +2,7 @@
 import img1 from '../assets/h3-img-04.png'
 import img2 from '../assets/h3-img-07.png'
 import img3 from '../assets/h3-img-08.png'
+import imgVideo from '../assets/h1-img-04.jpg'
 
 export default {
     name: "testimonials",
@@ -24,7 +25,8 @@ export default {
                     name: "Cynthia Clark",
                     text: `"Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum quod sint dignissimos. Non omnis quisquam, itaque nam, nemo officia dolorum iusto delectus et soluta suscipit earum alias odit! Dolorem, ut."`
                 }
-            ]
+            ],
+            imgVideo
         }
     },
     methods: {
@@ -77,6 +79,12 @@ export default {
 
             </div>
         </div>
+
+        <div class="position-relative">
+            <img class="video" :src="imgVideo">
+            <font-awesome-icon icon="fa-solid fa-play"
+                class="playVideo position-absolute top-50 start-50 translate-middle" />
+        </div>
     </section>
 </template>
 
@@ -120,6 +128,22 @@ export default {
         p {
             max-width: 70%;
             margin: 0 auto;
+        }
+
+    }
+
+    .video {
+        height: 100vh;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .playVideo {
+        font-size: 50px;
+        cursor: pointer;
+
+        &:hover {
+            color: $lightGrayColor;
         }
     }
 }
