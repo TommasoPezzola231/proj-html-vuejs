@@ -20,8 +20,11 @@ import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import { faArrowLeft } from '@fortawesome/free-solid-svg-icons'
 import { faUser } from '@fortawesome/free-solid-svg-icons'
 import { faPlay } from '@fortawesome/free-solid-svg-icons'
+import { faTwitter } from '@fortawesome/free-brands-svg-icons'
+import { faPhone } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
-library.add(faMagnifyingGlass, faBars, faLinkedin, faFacebook, faSquareTwitter, faClock, faLocationDot, faArrowUp, faArrowRight, faArrowLeft, faUser, faPlay)
+library.add(faMagnifyingGlass, faBars, faLinkedin, faFacebook, faSquareTwitter, faClock, faLocationDot, faArrowUp, faArrowRight, faArrowLeft, faUser, faPlay, faTwitter, faPhone, faEnvelope)
 
 
 import bootstrap from 'bootstrap/dist/js/bootstrap.bundle.js'
