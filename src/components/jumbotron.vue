@@ -16,6 +16,7 @@ export default {
     methods: {
         back() {
             this.activeBackground--
+            console.log(this.activeBackground)
 
             if (this.activeBackground < 0) {
                 this.activeBackground = this.bgImg.length - 1
@@ -23,6 +24,8 @@ export default {
         },
         next() {
             this.activeBackground++
+            console.log(this.activeBackground)
+
             if (this.activeBackground >= this.bgImg.length) {
                 this.activeBackground = 0
             }
@@ -39,7 +42,7 @@ export default {
         <font-awesome-icon icon="fa-solid fa-arrow-left" class="z-3 ms-5 position-absolute customPositionL"
             @click="back()" />
 
-        <div class="customContainer position-absolute top-50 start-0 translate-middle-y ms-3  z-3">
+        <div class="customContainer position-absolute top-50 start-0 translate-middle-y ms-3">
             <div class="customContainerL d-flex align-items-center">
                 <span>
                     <h1>Our Team<span>.</span></h1>
